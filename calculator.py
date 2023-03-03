@@ -1,3 +1,4 @@
+from calcart import logo
 def add(n1, n2):
     return n1 + n2
 
@@ -17,6 +18,7 @@ def divide(n1, n2):
 dict1 = {"+": add, "-": subtract, "*": multiply, "/": divide}
 
 def calculator():
+  print(logo)
   one_moreask = "y"
   num1 = int(input("Enter the first number:"))
   for i in dict1:
