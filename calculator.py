@@ -30,6 +30,7 @@ def calculator():
       one_moreask = input(
           f"type 'y' to continue calculating with {answer}, or type 'n' to exit: "
       )
+      num1 = answer
   else:
       one_moreask == "n"
       calculator()
